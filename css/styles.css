@@ -105,7 +105,8 @@ body {
 }
 
 .phone-container {
-  
+  text-decoration: none;
+  vertical-align:middle;
 }
 
 .phone-number {
@@ -115,6 +116,7 @@ body {
   top: 50px;
   color: white;
   cursor: pointer;
+  vertical-align:middle;
 }
 
 hr {
