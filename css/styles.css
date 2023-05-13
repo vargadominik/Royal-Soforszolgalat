@@ -261,7 +261,8 @@ sup {
 }
 
 a {
-  
+  text-decoration: none;
+  color: white;
 }
 a:hover {
   color: var(--bs-link-hover-color);
