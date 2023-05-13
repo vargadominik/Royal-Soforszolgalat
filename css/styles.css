@@ -111,12 +111,12 @@ body {
 
 .phone-number {
   position: absolute;
-  left: 9px;
-  right: 0;
-  top: 50px;
+  top: 60px;
+  left: 10px;
   color: white;
   cursor: pointer;
   vertical-align:middle;
+  align-items: center;
 }
 
 hr {
@@ -261,8 +261,7 @@ sup {
 }
 
 a {
-  color: var(--bs-link-color);
-  text-decoration: underline;
+  
 }
 a:hover {
   color: var(--bs-link-hover-color);
