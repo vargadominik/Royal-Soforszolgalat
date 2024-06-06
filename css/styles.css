@@ -5741,6 +5741,7 @@ textarea.form-control-lg {
 }
 .bs-popover-bottom > .popover-arrow::before, .bs-popover-auto[data-popper-placement^=bottom] > .popover-arrow::before, .bs-popover-bottom > .popover-arrow::after, .bs-popover-auto[data-popper-placement^=bottom] > .popover-arrow::after {
   border-width: 0 calc(var(--bs-popover-arrow-width) * 0.5) var(--bs-popover-arrow-height);
+  
 }
 .bs-popover-bottom > .popover-arrow::before, .bs-popover-auto[data-popper-placement^=bottom] > .popover-arrow::before {
   top: 0;
@@ -10927,6 +10928,7 @@ section {
   position: absolute;
   background-size: cover;
   pointer-events: auto;
+  margin: 0 auto;
 }
 
 .device .button {
@@ -10935,14 +10937,15 @@ section {
 }
 
 .device[data-device=iPhoneX][data-orientation=portrait][data-color=black] {
-  padding-bottom: 198.898071625%;
+  padding-bottom: 198.898071625%;     /*! 198.898071625%*/
 }
 
 .device[data-device=iPhoneX][data-orientation=portrait][data-color=black] .screen {
-  top: 3.1855955679%;
-  left: 6.8870523416%;
-  width: 86.2258953168%;
-  height: 93.6288088643%;
+  top: 1%;                /*! 3.1855955679%*/
+  left: 0%;      /*! 6.8870523416%*/
+  width: 99%;    /*! 86.2258953168%*/
+  height: 97.5%;   /*! 93.6288088643%*/
+  
 }
 
 .device[data-device=iPhoneX][data-orientation=portrait][data-color=black]::after {
